@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --pink: #ff5078;
+            --white: #fff;
+            --gray-light: #f1f1f1;
+            --border-radius: 8px;
+            --gap: 1rem;
+        }
+
+        .contact {
+            background-color: var(--pink);
+            padding: 3rem 1rem;
+            color: var(--white);
+            text-align: center;
+            height: 100vh;
+        }
+
+      
+        .contact .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            gap: var(--gap);
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 75px;
+        }
+
+       
+        .card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            flex: 1 1 300px;
+        }
+
+       
+        .card--image img {
+            width: 100%;
+            display: block;
+            border-radius: var(--border-radius);
+            margin-bottom: 0.75rem;
+        }
+
+        .caption {
+            font-size: 0.9rem;
+            color: #333;
+            text-align: left;
+        }
+
+        .card--form {
+            color: #333;
+            text-align: left;
+        }
+
+        .card--form h2 {
+            margin-bottom: 0.5rem;
+        }
+
+        .card--form p {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .card--form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card--form input,
+        .card--form textarea {
+            border: none;
+            background: var(--gray-light);
+            border-radius: var(--border-radius);
+            padding: 0.75rem;
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .card--form input:focus,
+        .card--form textarea:focus {
+            outline: 2px solid var(--pink);
+        }
+
+        .card--form button {
+            background-color: var(--pink);
+            color: var(--white);
+            border: none;
+            border-radius: var(--border-radius);
+            padding: 0.75rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .card--form button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="contact">
+        <div class="container">
+           
+            <div class="card card--image">
+                <img src="https://freerangestock.com/sample/114785/a-young-woman-working-on-her-laptop-looks-at-her-mobile-phone.jpg"
+                    alt="Working at a desk" />
+                <p class="caption">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores.
+                </p>
+            </div>
+
+           
+            <div class="card card--form">
+                <h2>Get in Touch</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+                    delectus.
+                </p>
+                <form action="">
+                    <input type="text" name="name" placeholder="Your Name"  />
+                    <input type="email" name="email" placeholder="Your Email" />
+                    <textarea name="message" rows="4" placeholder="How can we help?" ></textarea>
+                    <button type="submit">Submit</button>
+               </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

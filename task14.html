@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding:0;
+        margin: 0;
+        font-family: math;
+      }
+      section {
+        background-image: linear-gradient(
+          to top right,
+          rgb(9, 211, 9),
+          rgb(109, 109, 236),
+          rgb(136, 237, 166)
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .box{
+        width: 40%;
+        height: 75vh;
+        background-color:white;
+        padding-left: 60px;
+        padding-right: -20px;
+      }
+      input{
+        /* text-align: center; */
+        border: 1px solid gray;
+        padding: 10px;
+        margin: 7px 0px;
+      }
+      .lb1{
+        width: 100pxpx;
+      }
+      h1{
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+      [type="button"]{
+        width: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(80, 80, 237),
+          rgb(9, 211, 9),
+          rgb(136, 237, 166)
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="box">
+        <h1>GET IN TOUCH</h1>
+        <form action="">
+          <label style="padding-top: 20px;">Tell us your name* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter your email*</label><br>
+          <input type="text" placeholder="Enter Your Name" class="lb1"/>
+          <input type="text" placeholder="Enter Your Email"  class="lb1" style="margin-left: 32px;"/><br><br>
+          <label>Your Website</label><br>
+          <input type="text" placeholder="http://"  style="width:86%;"/><br><br>
+          <label>Message</label><br>
+          <input type="text" placeholder="Your message here...." style="width:86%; height:100px; text-align:start;"/><br><br>
+          <input type="button" value="SUBMIT"  style="margin-left:200px;"/>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

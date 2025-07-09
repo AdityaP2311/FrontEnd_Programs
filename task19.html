@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .box {
+        width: 500px;
+        background-color: white;
+        text-align: left;
+        color: black;
+        padding: 40px;
+        /* border: 2px solid gray; */
+      }
+
+      section {
+        background-color: rgb(216, 213, 213);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      input {
+        border: none;
+        /* border: 2px solid gray; */
+        outline: none;
+        width: 80%;
+        padding-bottom: 15px;
+        border-radius: 10px;
+      }
+      .inputbox,
+      .ip2 {
+        border: 1px solid gray;
+        background-color: white;
+        /* padding: 5px; */
+        margin: 4px;
+        width: 100%;
+        border-radius: 10px 10px;
+      }
+      textarea {
+        border: none;
+        width: 500px;
+        height: 80px;
+        font-size: x-small;
+      }
+      label {
+        display: block;
+        font-size: x-small;
+        color: gray;
+        padding: 9px;
+      }
+
+      input {
+        padding-left: 5px;
+      }
+      .ip {
+        display: flex;
+        width: 100%;
+      }
+      button {
+        background-color: black;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 13px;
+        color: white;
+      }
+      h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding: 26px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="box">
+        <form action="">
+          <h1>Contact Us</h1>
+          <div class="inputbox">
+            <label for="">FULL NAME*</label>
+            <input
+              type="text"
+              placeholder="fULL NAME"
+              value="Enter Your Name"
+            />
+          </div>
+          <div class="ip">
+            <div class="inputbox">
+              <label for="">EMAIL</label>
+              <input type="text" placeholder="Enter your Email" />
+            </div>
+            <div class="inputbox">
+              <label for="">PHONE</label>
+              <input type="text" placeholder="Enter Phone Number" />
+            </div>
+          </div>
+          <div class="inputbox">
+            <label for="">NEEDED SERVICES</label>
+            <input type="text" placeholder="" value="Please choose" />
+          </div>
+          <div class="ip2">
+            <label for="">MESSAGE</label>
+            <textarea name="" id="">Your Message Here.....</textarea>
+          </div>
+          <div class="btnBox">
+            <button type="submit">
+              Submit
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

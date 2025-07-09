@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: math;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width: 220px;
+    border: 2px solid red;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    border-top-left-radius: 46px;
+    border-top-right-radius: 46px;
+
+}
+
+p {
+    background-color: antiquewhite;
+}
+
+i {
+    font-size: 30px;
+}
+
+h3 {
+    padding-top: 5px;
+}

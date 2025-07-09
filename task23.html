@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(240, 202, 208)
+        }
+        .box{
+            border: 2px solid gray;
+            padding: 30px;
+            margin: 10px;
+            text-align: center;
+            width: 280px;
+            height: 310px;
+            border-radius: 20px 20px;
+            background-color: white;
+            color: black; 
+        }
+        input{
+            margin-top: 10px;
+            width: 230px;
+            height: 20px;
+            padding: 7px 10px;
+            background-color: rgb(245, 241, 241);
+            border: none;
+            text-shadow: 2px blur;
+        }
+        .m1{
+            height: 100px;
+            text-align: left;
+        }
+        button{
+            width:120px;
+            margin-top: 15px;
+            padding:8px;
+            background-color: rgb(219, 9, 188);
+            color: white;
+            border: none;
+
+        }
+        p{
+            font-size: small;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h3>Contact Us</h3>
+            <p>Feel Free to contact us if you need any assistant,any help or another question</p>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Message" class="m1">
+            <button>SEND</button>
+
+        </div>
+    </section>
+</body>
+</html>

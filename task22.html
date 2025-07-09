@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(230, 211, 211)
+        }
+        .box{
+            border: 2px solid gray;
+            padding: 30px;
+            margin: 10px;
+            text-align: left;
+            width: 250px;
+            border-radius: 20px 20px;
+            background-color: white;
+            color: black; 
+        }
+        input{
+            margin-top: 10px;
+            width: 230px;
+            height: 20px;
+            padding: 7px 10px;
+        }
+        #b1{
+            width: 250px;
+            padding: 5px;
+            border-radius: 5px 5px;
+            background-color: rgb(252, 202, 109);
+            color: black;
+            font-size: 12px bold;
+        }
+        #b2{
+                padding: 5px;
+                margin: 1px;
+                font-size: 15px bold;
+        }
+       h1, p,button{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <h1>
+                Agent Login
+            </h1><br>
+            <p>Hey,Enter your details to get sign in to your account</p>
+            <input type="text" name="" id="" placeholder="Enter Email/Phone No"><br>
+            <input type="text" name="" id="" placeholder="Passcode"><br><br>
+            <h5>Having trouble in sign in?</h5><br>
+            <button id="b1">Sign In</button><br><br>
+            <p>--or Sign in with--</p><br>
+            <button id="b2">
+                <i class="bi bi-google">Google</i>
+            </button >
+            <button id="b2">
+                <i class="bi bi-apple"> Apple ID</i>
+            </button>
+            <button id="b2">
+                <i class="bi bi-facebook">Facebook</i>
+            </button><br><br>
+            <p>Don't have an account?<b><small>>Request Now</small></b></p>
+        </div>
+    </section>
+</body>
+
+</html>

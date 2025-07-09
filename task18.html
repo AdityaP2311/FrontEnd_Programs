@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .box {
+            width: 300px;
+            background-color: white;
+            text-align: left;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: linear-gradient(to bottom left, blue, purple, rgb(248, 36, 71));
+        }
+
+        button {
+            background-image: linear-gradient(to bottom left, blue, purple, rgb(248, 36, 71));
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            margin-top: 13px;
+            color: white;
+        }
+
+        .box2 {
+            margin-left: 20px;
+            padding: 10px;
+        }
+
+        input {
+            border: none;
+            border-bottom: 2px solid gray;
+            outline: none;
+            width: 100%;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            font-size: x-small;
+            color: gray;
+        }
+
+        .inputBox,
+        .btnBox {
+            margin: 9px 0px;
+        }
+
+        .inputBox {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <div class="formBox">
+                <h1 style="text-align: center;font-size: 1.5rem;">Say Hello!</h1>
+                <form action="">
+                    <div class="inputBox">
+                        <label for="">Your name</label>
+                        <input type="text" placeholder="Name" value="Aditya Patil">
+                    </div>
+                    <div class="inputBox">
+                        <label for="">Email</label>
+                        <input type="text" placeholder="Enter your email address">
+                    </div>
+                    <div class="inputBox">
+                        <label for="">Shopping Services</label>
+                        <input type="text" placeholder="" value="Online store">
+                    </div>
+                    <div class="inputBox">
+                        <label for="">Budget</label>
+                        <input type="text" placeholder="select budget">
+                    </div>
+                    <div class="btnBox">
+                        <button type="submit">
+                            submit
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

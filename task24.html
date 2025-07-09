@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            padding: 30px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .box2 {
+            height: 369px;
+            width: 445px;
+            border-top: 10px solid rgb(240, 19, 19);
+            border-bottom: 1px solid rgb(247, 241, 241) ;
+             border-right: 1px solid rgb(247, 241, 241) ;
+             box-shadow: 2px 2px whitesmoke;
+        }
+
+        input {
+            display: flex;
+            margin: 0px 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .city {
+            display: flex;
+            margin: 10px;
+        }
+
+        img {
+            width: 205px;
+            border-radius: 100%;
+        }
+
+        .box1 {
+            background-color: rgb(240, 19, 19);
+            height: 380px;
+        }
+
+        h1,
+        p {
+            color: white;
+        }
+
+        button {
+            width: 110px;
+            margin-top: 30px;
+            background-color: rgb(240, 19, 19);
+            padding: 9px;
+            border: none;
+        }
+        h5{
+            padding-top: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box box1">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.4AO0xoZuHLLf9NTsVGW0LQHaEv?pid=Api&P=0&h=180" alt="" />
+            <h1>COVID-19</h1>
+            <h6>Self Checker Form</h6>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                incidunt, accusantium cumque, sed consequatur placeat nobis esse quasi
+                repellendus amet distinctio ducimus reprehenderit dolores, minus vel!
+                Nam laudantium praesentium expedita
+            </p>
+        </div>
+        <div class="box box2">
+            <h5>
+                Have you traveled to any of these countries with the highest number of
+                COVID-19 cases in the world for the past 2 weeks
+            </h5>
+            <div class="city">
+                <input type="text" placeholder="UK" />
+                <input type="text" placeholder="Germany" />
+            </div>
+            <div class="city">
+                <input type="text" placeholder="US" />
+                <input type="text" placeholder="India" />
+            </div>
+            <div class="city">
+                <input type="text" placeholder="Brazil" />
+                <input type="text" placeholder="Europe" />
+            </div>
+            <div class="city">
+                <input type="text" placeholder="I did not travelled to any of these countries" />
+            </div>
+            <div class="btn">
+                <button>Previous</button>
+                <button>Next</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
